@@ -1,0 +1,26 @@
+{
+    "name": "jq-syntax-highlighting",
+    "displayName": "jq Syntax Highlighting",
+    "description": "Syntax support for the jq JSON command-line processor.",
+    "version": "0.0.1",
+    "publisher": "publisher-name-here",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "jq",
+            "aliases": ["jq", "jq"],
+            "extensions": [".jq"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "jq",
+            "scopeName": "source.jq",
+            "path": "./syntaxes/jq.tmLanguage.json"
+        }]
+    }
+}
