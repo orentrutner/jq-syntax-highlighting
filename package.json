@@ -3,7 +3,7 @@
     "displayName": "jq Syntax Highlighting",
     "description": "Syntax support for the jq JSON command-line processor.",
     "version": "0.0.1",
-    "publisher": "publisher-name-here",
+    "publisher": "jq-syntax-highlighting",
     "engines": {
         "vscode": "^1.19.0"
     },
