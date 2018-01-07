@@ -34,7 +34,7 @@
 				"match": "(?<!\\.|\\$)\\b(and|as|empty|not|or|reduce)\\b(?!\\.)"
 			}, {
 				"name": "keyword.control",
-				"match": "(?<!\\.|\\$)\\b(break|catch|else|end|if|label|then|try)\\b(?!\\.)"
+				"match": "(?<!\\.|\\$)\\b(break|catch|elif|else|end|if|label|then|try)\\b(?!\\.)"
 			}, {
 				"name": "constant.language",
 				"match": "(?<!\\.|\\$)\\b(false|null|true)\\b(?!\\.)"
