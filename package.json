@@ -25,6 +25,10 @@
             "language": "jq",
             "scopeName": "source.jq",
             "path": "./syntaxes/jq.tmLanguage.json"
+        }],
+        "snippets": [{
+            "language": "jq",
+            "path": "./snippets/jq.json"
         }]
     }
 }
