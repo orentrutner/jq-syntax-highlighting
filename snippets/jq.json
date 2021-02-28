@@ -1,0 +1,49 @@
+{
+	".source.go": {
+        "debug": {
+            "prefix": "dd",
+            "body": "debug |",
+            "description": "Snippet for debug"
+        },
+        "debug variable": {
+            "prefix": "dv",
+            "body": "(. as $$c | [\"$${1:var}\", $${1:var}] | debug | $$c) |",
+            "description": "Snippet for debug variable"
+        },
+        "debug expression": {
+            "prefix": "de",
+            "body": "(. as $$c | [\"${1:var}\", ${1:var}] | debug | $$c) |",
+            "description": "Snippet for debug expression"
+        },
+        "if then else end": {
+            "prefix": "if",
+            "body": "if ${1:exp} then ${2:true} else ${3:false} end",
+            "description": "Snippet for if then else end"
+        },
+        "if then end": {
+            "prefix": "ife",
+            "body": "if ${1:exp} then ${2:true} end",
+            "description": "Snippet for if then end"
+        },
+        "try catch": {
+            "prefix": "try",
+            "body": "try ${1:.exp} catch ${2:.}",
+            "description": "Snippet for try catch"
+        },
+        "as var": {
+            "prefix": "as",
+            "body": "${1:exp} as $${2:var} |",
+            "description": "Snippet for EXP as $var"
+        },
+        "foreach": {
+            "prefix": "for",
+            "body": "foreach ${1:.} as $${2:i} (${3:init}; $${2:i}; $${2:i})",
+            "description": "Snippet for foreach EXP as $var (INIT; UPDATE; EXTRACT)"
+        },
+        "reduce": {
+            "prefix": "re",
+            "body": "reduce ${1:.} as $${2:i} (${3:init}; $${2:i})",
+            "description": "Snippet for reduce .[] as $item (0; . + $item)"
+        }
+    }
+}
